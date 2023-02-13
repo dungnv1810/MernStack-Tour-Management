@@ -1,0 +1,30 @@
+section{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.thank_you span i{
+    font-size: 4rem;
+    color: green;
+}
+.thank_you h1{
+    font-size: 3.6rem;
+    font-family: var(--subtitle-font-name);
+}
+.primary_btn {
+    background: var(--secondary-color) !important;
+    border: none !important;
+    border-radius: 50px !important;
+    padding: 0.4rem 1.5rem !important;
+  }
+  
+  .primary_btn a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #fff;
+  }
+  .primary_btn a:hover {
+    color: inherit;
+  }
+  .newsletter{
+    padding-bottom: 30px;
+  }

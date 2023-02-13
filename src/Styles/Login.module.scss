@@ -1,0 +1,72 @@
+.login{
+    
+}
+.login_container{
+    box-shadow: rgba(17,122,46,0.15) 0px 48px 100px 0px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.login_img{
+    width: 60%;
+    text-align: center;
+}
+.login_img img{
+    width: 70%;
+    object-fit: cover;
+}
+.login_form{
+    width: 45%;
+    padding: 50px;
+    background: var(--secondary-color);
+    position: relative;
+}
+.login_form .user{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: -9%;
+    left: 50%;
+    transform: translate(-50%, -9%);
+}
+.login_form .user img{
+    width: 100%;
+}
+.login_form h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.login_form input{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    color: var(--heading-color);
+    &:focus{
+        outline: none;
+    }
+}
+.secondary_btn {
+    background: transparent !important;
+    color: #0b2727 !important;
+    border: none !important;
+    font-weight: 500 !important;
+}
+.auth_btn{
+    background: var(--heading-color) !important;
+    width: 100%;
+    color: #fff !important;
+}
+.login_form p {
+    font-size: .9rem;
+    color: #fff;
+    margin-top: 1.5rem;
+}
+.login_form p a{
+    color: var(--heading-color);
+    text-decoration: none;
+    font-weight: 500;
+}

@@ -1,0 +1,117 @@
+.hero_section_start{
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+section{
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+.hero_content{
+    padding-top: 3.5rem;
+}
+.hero_content h1{
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: var(--heading-color);
+}
+.hero_subtitle{
+    display: flex;
+    align-items: center;
+}
+.hero_subtitle img{
+    width: 2.3rem;
+    height: 2.3rem;
+}
+.hero_content h1 .hoghlight{
+    color: var(--secondary-color);
+}
+.hero_content p{
+    font-size: 1.1rem;
+    color: var(--text-color);
+    line-height: 2rem;
+}
+.hero_img-box{
+    
+}
+.hero_img-box img, 
+.hero_img-box video{
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid var(--secondary-color);
+    object-fit: cover;
+}
+
+// ServicesSubtitle
+.services_subtitle{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #ee6e6e;
+    font-family: var(--subtitle-font-name);
+}
+.services_title{
+    font-weight: 2.5rem;
+    font-weight: 500;
+}
+
+// Explore
+.featured_tour_title{
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+.counter_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+// Experience
+.experience_content h2{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+.experience_content p{
+    font-size: 1.1rem;
+    color: var(--text-color);
+    margin-top: 1rem;
+}
+.counter_wrapper{
+    margin-top: 2.5rem;
+}
+.counter_box span{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 15px 5px 15px 5px;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+}
+.counter_box h6{
+    font-size: 1.1rem;
+    margin-top: .7rem;
+    color: var(--text-color);
+}
+.experience_img img{
+    width: 90%;
+}
+
+// Gallery
+.gallery_title{
+    font-size: 2.3rem;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+}
+
+// Testimonia
+.testimonial_title{
+    font-size: 2.3rem;
+    margin-top: 1rem;
+}
